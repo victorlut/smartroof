@@ -94,7 +94,7 @@ export function DataTable<TData, TValue>({
 
   return (
     <div className="w-full">
-      <div className="flex items-center pb-4">
+      <div className="flex items-center pb-6">
         <div className="w-full relative">
           <Search className="absolute ml-[29px] mt-[12px] w-4 h-4 text-gray-500"></Search>
           <Input
@@ -156,7 +156,7 @@ export function DataTable<TData, TValue>({
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
-      <div className="border rounded-xl w-full bg-white">
+      <div className="rounded-xl px-6 pb-6 w-full bg-white">
         <TooltipProvider>
           <Table>
             <TableHeader>
@@ -166,7 +166,7 @@ export function DataTable<TData, TValue>({
                     return (
                       <TableHead
                         key={header.id}
-                        className="text-xs first:pl-6 last:pr-6 pt-6 pb-3 h-14"
+                        className="text-xs first:pl-6 last:pr-6 py-6 h-14"
                       >
                         {header.isPlaceholder
                           ? null
@@ -190,7 +190,7 @@ export function DataTable<TData, TValue>({
                     {row.getVisibleCells().map((cell) => (
                       <TableCell
                         key={cell.id}
-                        className="first:pl-6 last:pr-6 text-slate-500"
+                        className="first:pl-6 last:pr-6 text-slate-500 pl-3 pt-9"
                       >
                         {flexRender(
                           cell.column.columnDef.cell,
