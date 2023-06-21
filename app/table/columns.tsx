@@ -12,7 +12,6 @@ import {
 import { Icons } from "@/components/icons"
 
 // This type is used to define the shape of our data.
-// You can use a Zod schema here if you want.
 export type Record = {
   id: number
   img: string
@@ -23,6 +22,7 @@ export type Record = {
   roofLifespan: string
 }
 
+// This is the columns schema of the datatable
 export const columns: ColumnDef<Record>[] = [
   {
     id: "select",
