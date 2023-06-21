@@ -50,13 +50,15 @@ export function Pagination<TData, TValue>({
         <ArrowLeft className="mr-3 w-4" /> Previous
       </Button>
       <div className="flex items-center justify-between gap-1 text-slate-600">
-        {getPageNumbers().map((pageNumber, pageIndex) =>
+        {getPageNumbers().map((pageNumber, ind) =>
           typeof pageNumber == "number" ? (
             <Button
-              key={pageIndex}
+              key={ind}
               variant={"ghost"}
               className={`${
-                pageIndex === pageNumber ? "text-slate-800" : "text-slate-600"
+                pageIndex === pageNumber
+                  ? "text-slate-800 bg-slate-100"
+                  : "text-slate-600"
               }`}
               onClick={() => {
                 table.setPageIndex(pageNumber)
@@ -65,7 +67,7 @@ export function Pagination<TData, TValue>({
               {pageNumber + 1}
             </Button>
           ) : (
-            <span key={pageIndex}>...</span>
+            <span key={ind}>...</span>
           )
         )}
       </div>

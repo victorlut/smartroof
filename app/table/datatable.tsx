@@ -94,7 +94,7 @@ export function DataTable<TData, TValue>({
 
   return (
     <div className="w-full">
-      <div className="flex items-center py-4">
+      <div className="flex items-center pb-4">
         <div className="w-full relative">
           <Search className="absolute ml-[29px] mt-[12px] w-4 h-4 text-gray-500"></Search>
           <Input
@@ -110,7 +110,7 @@ export function DataTable<TData, TValue>({
         </div>
         <div className="flex ml-4 mr-2" aria-label="Toggle View">
           <Toggle
-            className="data-[state=on]:bg-white text-slate-700 whitespace-nowrap"
+            className="data-[state=on]:bg-white text-slate-900 whitespace-nowrap"
             pressed={isListViewMode}
             onClick={() => {
               setIsListViewMode(true)
@@ -119,7 +119,7 @@ export function DataTable<TData, TValue>({
             List View
           </Toggle>
           <Toggle
-            className="data-[state=on]:bg-white text-slate-700 whitespace-nowrap"
+            className="data-[state=on]:bg-white text-slate-900 whitespace-nowrap"
             pressed={!isListViewMode}
             onClick={() => {
               setIsListViewMode(false)
@@ -131,7 +131,7 @@ export function DataTable<TData, TValue>({
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="bg-gray-50 text-gray-500">
-              <Filter className="mr-1" />
+              <Filter className="mr-2 w-4" />
               Filter
             </Button>
           </DropdownMenuTrigger>
@@ -166,7 +166,7 @@ export function DataTable<TData, TValue>({
                     return (
                       <TableHead
                         key={header.id}
-                        className="first:pl-6 last:pr-6 pt-6 pb-3 h-14"
+                        className="text-xs first:pl-6 last:pr-6 pt-6 pb-3 h-14"
                       >
                         {header.isPlaceholder
                           ? null
@@ -188,7 +188,10 @@ export function DataTable<TData, TValue>({
                     data-state={row.getIsSelected() && "selected"}
                   >
                     {row.getVisibleCells().map((cell) => (
-                      <TableCell key={cell.id} className="first:pl-6 last:pr-6">
+                      <TableCell
+                        key={cell.id}
+                        className="first:pl-6 last:pr-6 text-slate-500"
+                      >
                         {flexRender(
                           cell.column.columnDef.cell,
                           cell.getContext()

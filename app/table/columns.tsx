@@ -60,6 +60,11 @@ export const columns: ColumnDef<Record>[] = [
   {
     accessorKey: "address",
     header: "Address",
+    cell: ({ row }) => {
+      const record = row.original
+
+      return <p className="text-slate-700">{record.address}</p>
+    },
   },
   {
     accessorKey: "latestInspectionDate",
@@ -76,9 +81,6 @@ export const columns: ColumnDef<Record>[] = [
   {
     accessorKey: "roofLifespan",
     header: "Roof Lifespan",
-    cell: ({ row }) => {
-      return <b>{row.original.roofLifespan}</b>
-    },
   },
   {
     id: "actions",
@@ -90,8 +92,8 @@ export const columns: ColumnDef<Record>[] = [
         <Tooltip>
           <TooltipTrigger asChild>
             <Button
-              className="hover:bg-[#E7F9EE] w-12 h-12 px-0 py-0 rounded-lg"
-              variant={"ghost"}
+              className="w-12 h-12 px-0 py-0 rounded-lg"
+              variant={"outline"}
               onClick={() => alert(`Record ${record.id} Triggered`)}
             >
               <Icons.yoga3></Icons.yoga3>
