@@ -84,7 +84,7 @@ export const columns: ColumnDef<Record>[] = [
     id: "actions",
     header: "Action",
     cell: ({ row }) => {
-      const payment = row.original
+      const record = row.original
 
       return (
         <Tooltip>
@@ -92,6 +92,7 @@ export const columns: ColumnDef<Record>[] = [
             <Button
               className="hover:bg-[#E7F9EE] w-12 h-12 px-0 py-0 rounded-lg"
               variant={"ghost"}
+              onClick={() => alert(`Record ${record.id} Triggered`)}
             >
               <Icons.yoga3></Icons.yoga3>
             </Button>

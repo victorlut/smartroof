@@ -5,7 +5,6 @@ import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { SiteSidebar } from "@/components/layouts/sidebar"
-import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
@@ -42,12 +41,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             <div className="relative flex min-h-screen flex-col">
-              <SiteSidebar />
-              <div className="sm:ml-72 bg-gray-100 min-h-screen">
+              <div>
+                <SiteSidebar />
+              </div>
+              <div className="lg:ml-72 bg-gray-100 min-h-screen">
                 {children}
               </div>
             </div>
-            <TailwindIndicator />
           </ThemeProvider>
         </body>
       </html>

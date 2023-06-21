@@ -32,6 +32,8 @@ import {
 import { Toggle } from "@/components/ui/toggle"
 import { TooltipProvider } from "@/components/ui/tooltip"
 
+import { Pagination } from "./pagination"
+
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
   data: TData[]
@@ -62,7 +64,6 @@ export function DataTable<TData, TValue>({
     },
   })
   const pageIndex = table.getState().pagination.pageIndex
-  const pageCount = table.getPageCount()
 
   const getPageNumbers = () => {
     const pageCount = table.getPageCount()
@@ -104,7 +105,7 @@ export function DataTable<TData, TValue>({
             onChange={(event) =>
               table.getColumn("address")?.setFilterValue(event.target.value)
             }
-            className="pl-14 pt-2 w-full"
+            className="pl-14 pt-2 w-full bg-gray-50"
           />
         </div>
         <div className="flex ml-4 mr-2" aria-label="Toggle View">
@@ -209,44 +210,7 @@ export function DataTable<TData, TValue>({
             </TableBody>
           </Table>
         </TooltipProvider>
-        <div className="flex items-center justify-between space-x-2 py-4 px-6">
-          <Button
-            variant={"outline"}
-            onClick={() => table.previousPage()}
-            disabled={!table.getCanPreviousPage()}
-          >
-            <ArrowLeft className="mr-3 w-4" /> Previous
-          </Button>
-          <div className="flex items-center justify-between gap-1 text-slate-600">
-            {getPageNumbers().map((pageNumber, pageIndex) =>
-              typeof pageNumber == "number" ? (
-                <Button
-                  key={pageIndex}
-                  variant={"ghost"}
-                  className={`${
-                    pageIndex === pageNumber
-                      ? "text-slate-800"
-                      : "text-slate-600"
-                  }`}
-                  onClick={() => {
-                    table.setPageIndex(pageNumber)
-                  }}
-                >
-                  {pageNumber + 1}
-                </Button>
-              ) : (
-                <span key={pageIndex}>...</span>
-              )
-            )}
-          </div>
-          <Button
-            variant={"outline"}
-            onClick={() => table.nextPage()}
-            disabled={!table.getCanNextPage()}
-          >
-            Next <ArrowRight className="ml-3 w-4" />
-          </Button>
-        </div>
+        <Pagination table={table}></Pagination>
       </div>
     </div>
   )
