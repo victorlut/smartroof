@@ -8,7 +8,7 @@ import mockData from "./table/mockTableData.json"
 
 export default async function IndexPage() {
   async function getData(): Promise<Record[]> {
-    // Fetch data from your API here.
+    // dev: Fetch data from your API here.
     return mockData
   }
   const data = await getData()

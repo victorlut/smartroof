@@ -63,7 +63,7 @@ export const columns: ColumnDef<Record>[] = [
     cell: ({ row }) => {
       const record = row.original
 
-      return <p className="text-slate-700">{record.address}</p>
+      return <p className="text-slate-700 font-semibold">{record.address}</p>
     },
   },
   {
@@ -94,7 +94,10 @@ export const columns: ColumnDef<Record>[] = [
             <Button
               className="w-12 h-12 px-0 py-0 rounded-lg"
               variant={"outline"}
-              onClick={() => alert(`Record ${record.id} Triggered`)}
+              onClick={() => {
+                // dev: action
+                alert(`Record ${record.id} Triggered`)
+              }}
             >
               <Icons.yoga3></Icons.yoga3>
             </Button>

@@ -63,34 +63,6 @@ export function DataTable<TData, TValue>({
       columnVisibility,
     },
   })
-  const pageIndex = table.getState().pagination.pageIndex
-
-  const getPageNumbers = () => {
-    const pageCount = table.getPageCount()
-    const pageNumbers = []
-    const maxPageNumbers = 7 // Change to 6
-    const currentPageNumber = pageIndex + 1
-
-    if (pageCount <= maxPageNumbers) {
-      for (let i = 0; i < maxPageNumbers; i++) {
-        pageNumbers.push(i)
-      }
-    } else {
-      pageNumbers.push(0, 1, 2)
-      if (currentPageNumber > 4) {
-        pageNumbers.push("...")
-      }
-      if (currentPageNumber > 3 && currentPageNumber < pageCount - 2) {
-        pageNumbers.push(currentPageNumber - 1)
-      }
-      if (currentPageNumber < pageCount - 3) {
-        pageNumbers.push("...")
-      }
-      pageNumbers.push(pageCount - 3, pageCount - 2, pageCount - 1)
-    }
-
-    return pageNumbers
-  }
 
   return (
     <div className="w-full">
