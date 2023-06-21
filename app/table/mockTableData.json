@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "img": "https://loremflickr.com/50/50/building1",
+    "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+    "latestInspectionDate": "12/10/13",
+    "latestDamageImpacts": "124 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 2,
+    "img": "https://loremflickr.com/50/50/building2",
+    "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+    "latestInspectionDate": "12/10/13",
+    "latestDamageImpacts": "124 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 3,
+    "img": "https://loremflickr.com/50/50/building3",
+    "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+    "latestInspectionDate": "12/10/13",
+    "latestDamageImpacts": "124 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 4,
+    "img": "https://loremflickr.com/50/50/building4",
+    "address": "123 Elm Street, Springfield, Oregon 12345",
+    "latestInspectionDate": "01/05/22",
+    "latestDamageImpacts": "89 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 5,
+    "img": "https://loremflickr.com/50/50/building5",
+    "address": "789 Main St. Charleston, South Carolina 54321",
+    "latestInspectionDate": "07/15/21",
+    "latestDamageImpacts": "42 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 6,
+    "img": "https://loremflickr.com/50/50/building6",
+    "address": "987 Pine Ave. Austin, Texas 67890",
+    "latestInspectionDate": "03/18/23",
+    "latestDamageImpacts": "17 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 7,
+    "img": "https://loremflickr.com/50/50/building7",
+    "address": "555 Oak St. Seattle, Washington 24680",
+    "latestInspectionDate": "09/02/21",
+    "latestDamageImpacts": "73 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 8,
+    "img": "https://loremflickr.com/50/50/building8",
+    "address": "222 Maple Dr. Denver, Colorado 13579",
+    "latestInspectionDate": "06/30/22",
+    "latestDamageImpacts": "104 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 9,
+    "img": "https://loremflickr.com/50/50/building9",
+    "address": "789 Elm Ave. Portland, Oregon 86420",
+    "latestInspectionDate": "11/25/21",
+    "latestDamageImpacts": "58 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 10,
+    "img": "https://loremflickr.com/50/50/building10",
+    "address": "123 Oak St. San Francisco, California 97531",
+    "latestInspectionDate": "08/08/21",
+    "latestDamageImpacts": "32 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 11,
+    "img": "https://loremflickr.com/50/50/building11",
+    "address": "555 Pine Ave. Boston, Massachusetts 36912",
+    "latestInspectionDate": "04/22/23",
+    "latestDamageImpacts": "12 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 12,
+    "img": "https://loremflickr.com/50/50/building12",
+    "address": "222 Oak St. Nashville, Tennessee 75369",
+    "latestInspectionDate": "10/12/22",
+    "latestDamageImpacts": "81 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 13,
+    "img": "https://loremflickr.com/50/50/building13",
+    "address": "789 Maple Dr. Orlando, Florida 98765",
+    "latestInspectionDate": "07/01/21",
+    "latestDamageImpacts": "39 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 14,
+    "img": "https://loremflickr.com/50/50/building14",
+    "address": "123 Pine Ave. Chicago, Illinois 45678",
+    "latestInspectionDate": "03/09/22",
+    "latestDamageImpacts": "68 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 15,
+    "img": "https://loremflickr.com/50/50/building15",
+    "address": "555 Elm St. Miami, Florida 23456",
+    "latestInspectionDate": "12/19/21",
+    "latestDamageImpacts": "21 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 16,
+    "img": "https://loremflickr.com/50/50/building16",
+    "address": "222 Oak St. Phoenix, Arizona 78901",
+    "latestInspectionDate": "09/27/21",
+    "latestDamageImpacts": "47 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 17,
+    "img": "https://loremflickr.com/50/50/building17",
+    "address": "789 Maple Dr. Seattle, Washington 65432",
+    "latestInspectionDate": "05/14/23",
+    "latestDamageImpacts": "91 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 18,
+    "img": "https://loremflickr.com/50/50/building18",
+    "address": "123 Pine Ave. New York, New York 13579",
+    "latestInspectionDate": "01/28/22",
+    "latestDamageImpacts": "36 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 19,
+    "img": "https://loremflickr.com/50/50/building19",
+    "address": "555 Elm St. Los Angeles, California 86420",
+    "latestInspectionDate": "08/05/21",
+    "latestDamageImpacts": "75 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 20,
+    "img": "https://loremflickr.com/50/50/building20",
+    "address": "222 Oak St. Atlanta, Georgia 24680",
+    "latestInspectionDate": "04/10/23",
+    "latestDamageImpacts": "18 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 21,
+    "img": "https://loremflickr.com/50/50/building21",
+    "address": "789 Maple Dr. San Diego, California 97531",
+    "latestInspectionDate": "11/21/21",
+    "latestDamageImpacts": "49 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 22,
+    "img": "https://loremflickr.com/50/50/building22",
+    "address": "123 Pine Ave. Dallas, Texas 36912",
+    "latestInspectionDate": "07/10/22",
+    "latestDamageImpacts": "32 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 23,
+    "img": "https://loremflickr.com/50/50/building23",
+    "address": "555 Elm St. Philadelphia, Pennsylvania 75369",
+    "latestInspectionDate": "02/14/23",
+    "latestDamageImpacts": "67 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 24,
+    "img": "https://loremflickr.com/50/50/building24",
+    "address": "222 Oak St. Houston, Texas 98765",
+    "latestInspectionDate": "10/02/21",
+    "latestDamageImpacts": "29 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 25,
+    "img": "https://loremflickr.com/50/50/building25",
+    "address": "789 Maple Dr. Las Vegas, Nevada 45678",
+    "latestInspectionDate": "06/25/22",
+    "latestDamageImpacts": "54 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 26,
+    "img": "https://loremflickr.com/50/50/building26",
+    "address": "123 Pine Ave. Miami, Florida 23456",
+    "latestInspectionDate": "03/17/21",
+    "latestDamageImpacts": "23 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 27,
+    "img": "https://loremflickr.com/50/50/building27",
+    "address": "555 Elm St. San Francisco, California 78901",
+    "latestInspectionDate": "11/30/21",
+    "latestDamageImpacts": "43 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 28,
+    "img": "https://loremflickr.com/50/50/building28",
+    "address": "222 Oak St. Chicago, Illinois 65432",
+    "latestInspectionDate": "08/22/22",
+    "latestDamageImpacts": "76 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 29,
+    "img": "https://loremflickr.com/50/50/building29",
+    "address": "789 Maple Dr. Seattle, Washington 13579",
+    "latestInspectionDate": "04/12/23",
+    "latestDamageImpacts": "35 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 30,
+    "img": "https://loremflickr.com/50/50/building30",
+    "address": "123 Pine Ave. New York, New York 86420",
+    "latestInspectionDate": "12/07/21",
+    "latestDamageImpacts": "62 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 31,
+    "img": "https://loremflickr.com/50/50/building31",
+    "address": "555 Elm St. Los Angeles, California 24680",
+    "latestInspectionDate": "07/10/23",
+    "latestDamageImpacts": "28 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 32,
+    "img": "https://loremflickr.com/50/50/building32",
+    "address": "222 Oak St. Atlanta, Georgia 97531",
+    "latestInspectionDate": "02/16/22",
+    "latestDamageImpacts": "52 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 33,
+    "img": "https://loremflickr.com/50/50/building33",
+    "address": "789 Maple Dr. San Diego, California 36912",
+    "latestInspectionDate": "09/28/21",
+    "latestDamageImpacts": "16 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 34,
+    "img": "https://loremflickr.com/50/50/building34",
+    "address": "123 Pine Ave. Dallas, Texas 75369",
+    "latestInspectionDate": "06/02/22",
+    "latestDamageImpacts": "71 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 35,
+    "img": "https://loremflickr.com/50/50/building35",
+    "address": "555 Elm St. Philadelphia, Pennsylvania 98765",
+    "latestInspectionDate": "01/17/23",
+    "latestDamageImpacts": "41 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 36,
+    "img": "https://loremflickr.com/50/50/building36",
+    "address": "222 Oak St. Houston, Texas 45678",
+    "latestInspectionDate": "10/05/21",
+    "latestDamageImpacts": "84 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 37,
+    "img": "https://loremflickr.com/50/50/building37",
+    "address": "789 Maple Dr. Las Vegas, Nevada 24680",
+    "latestInspectionDate": "05/29/23",
+    "latestDamageImpacts": "37 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 38,
+    "img": "https://loremflickr.com/50/50/building38",
+    "address": "123 Pine Ave. Miami, Florida 97531",
+    "latestInspectionDate": "03/05/21",
+    "latestDamageImpacts": "27 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 39,
+    "img": "https://loremflickr.com/50/50/building39",
+    "address": "555 Elm St. San Francisco, California 36912",
+    "latestInspectionDate": "11/20/21",
+    "latestDamageImpacts": "59 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 40,
+    "img": "https://loremflickr.com/50/50/building40",
+    "address": "222 Oak St. Chicago, Illinois 75369",
+    "latestInspectionDate": "08/12/22",
+    "latestDamageImpacts": "32 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 41,
+    "img": "https://loremflickr.com/50/50/building41",
+    "address": "789 Maple Dr. Seattle, Washington 98765",
+    "latestInspectionDate": "04/03/23",
+    "latestDamageImpacts": "68 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 42,
+    "img": "https://loremflickr.com/50/50/building42",
+    "address": "123 Pine Ave. New York, New York 45678",
+    "latestInspectionDate": "12/29/21",
+    "latestDamageImpacts": "23 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 43,
+    "img": "https://loremflickr.com/50/50/building43",
+    "address": "555 Elm St. Los Angeles, California 86420",
+    "latestInspectionDate": "08/07/21",
+    "latestDamageImpacts": "47 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 44,
+    "img": "https://loremflickr.com/50/50/building44",
+    "address": "222 Oak St. Atlanta, Georgia 13579",
+    "latestInspectionDate": "03/11/23",
+    "latestDamageImpacts": "19 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 45,
+    "img": "https://loremflickr.com/50/50/building45",
+    "address": "789 Maple Dr. San Diego, California 75369",
+    "latestInspectionDate": "11/17/21",
+    "latestDamageImpacts": "51 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 46,
+    "img": "https://loremflickr.com/50/50/building46",
+    "address": "123 Pine Ave. Dallas, Texas 98765",
+    "latestInspectionDate": "07/08/22",
+    "latestDamageImpacts": "38 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 47,
+    "img": "https://loremflickr.com/50/50/building47",
+    "address": "555 Elm St. Philadelphia, Pennsylvania 45678",
+    "latestInspectionDate": "02/12/23",
+    "latestDamageImpacts": "74 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 48,
+    "img": "https://loremflickr.com/50/50/building48",
+    "address": "222 Oak St. Houston, Texas 86420",
+    "latestInspectionDate": "10/01/21",
+    "latestDamageImpacts": "31 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 49,
+    "img": "https://loremflickr.com/50/50/building49",
+    "address": "789 Maple Dr. Las Vegas, Nevada 36912",
+    "latestInspectionDate": "06/22/22",
+    "latestDamageImpacts": "65 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 50,
+    "img": "https://loremflickr.com/50/50/building50",
+    "address": "123 Pine Ave. Miami, Florida 75369",
+    "latestInspectionDate": "03/03/21",
+    "latestDamageImpacts": "22 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 1,
+    "img": "https://loremflickr.com/50/50/building1",
+    "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+    "latestInspectionDate": "12/10/13",
+    "latestDamageImpacts": "124 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 2,
+    "img": "https://loremflickr.com/50/50/building2",
+    "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+    "latestInspectionDate": "12/10/13",
+    "latestDamageImpacts": "124 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 3,
+    "img": "https://loremflickr.com/50/50/building3",
+    "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+    "latestInspectionDate": "12/10/13",
+    "latestDamageImpacts": "124 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 4,
+    "img": "https://loremflickr.com/50/50/building4",
+    "address": "123 Elm Street, Springfield, Oregon 12345",
+    "latestInspectionDate": "01/05/22",
+    "latestDamageImpacts": "89 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 5,
+    "img": "https://loremflickr.com/50/50/building5",
+    "address": "789 Main St. Charleston, South Carolina 54321",
+    "latestInspectionDate": "07/15/21",
+    "latestDamageImpacts": "42 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 6,
+    "img": "https://loremflickr.com/50/50/building6",
+    "address": "987 Pine Ave. Austin, Texas 67890",
+    "latestInspectionDate": "03/18/23",
+    "latestDamageImpacts": "17 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 7,
+    "img": "https://loremflickr.com/50/50/building7",
+    "address": "555 Oak St. Seattle, Washington 24680",
+    "latestInspectionDate": "09/02/21",
+    "latestDamageImpacts": "73 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 8,
+    "img": "https://loremflickr.com/50/50/building8",
+    "address": "222 Maple Dr. Denver, Colorado 13579",
+    "latestInspectionDate": "06/30/22",
+    "latestDamageImpacts": "104 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 9,
+    "img": "https://loremflickr.com/50/50/building9",
+    "address": "789 Elm Ave. Portland, Oregon 86420",
+    "latestInspectionDate": "11/25/21",
+    "latestDamageImpacts": "58 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 10,
+    "img": "https://loremflickr.com/50/50/building10",
+    "address": "123 Oak St. San Francisco, California 97531",
+    "latestInspectionDate": "08/08/21",
+    "latestDamageImpacts": "32 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 11,
+    "img": "https://loremflickr.com/50/50/building11",
+    "address": "555 Pine Ave. Boston, Massachusetts 36912",
+    "latestInspectionDate": "04/22/23",
+    "latestDamageImpacts": "12 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 12,
+    "img": "https://loremflickr.com/50/50/building12",
+    "address": "222 Oak St. Nashville, Tennessee 75369",
+    "latestInspectionDate": "10/12/22",
+    "latestDamageImpacts": "81 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 13,
+    "img": "https://loremflickr.com/50/50/building13",
+    "address": "789 Maple Dr. Orlando, Florida 98765",
+    "latestInspectionDate": "07/01/21",
+    "latestDamageImpacts": "39 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 14,
+    "img": "https://loremflickr.com/50/50/building14",
+    "address": "123 Pine Ave. Chicago, Illinois 45678",
+    "latestInspectionDate": "03/09/22",
+    "latestDamageImpacts": "68 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 15,
+    "img": "https://loremflickr.com/50/50/building15",
+    "address": "555 Elm St. Miami, Florida 23456",
+    "latestInspectionDate": "12/19/21",
+    "latestDamageImpacts": "21 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 16,
+    "img": "https://loremflickr.com/50/50/building16",
+    "address": "222 Oak St. Phoenix, Arizona 78901",
+    "latestInspectionDate": "09/27/21",
+    "latestDamageImpacts": "47 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 17,
+    "img": "https://loremflickr.com/50/50/building17",
+    "address": "789 Maple Dr. Seattle, Washington 65432",
+    "latestInspectionDate": "05/14/23",
+    "latestDamageImpacts": "91 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 18,
+    "img": "https://loremflickr.com/50/50/building18",
+    "address": "123 Pine Ave. New York, New York 13579",
+    "latestInspectionDate": "01/28/22",
+    "latestDamageImpacts": "36 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 19,
+    "img": "https://loremflickr.com/50/50/building19",
+    "address": "555 Elm St. Los Angeles, California 86420",
+    "latestInspectionDate": "08/05/21",
+    "latestDamageImpacts": "75 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 20,
+    "img": "https://loremflickr.com/50/50/building20",
+    "address": "222 Oak St. Atlanta, Georgia 24680",
+    "latestInspectionDate": "04/10/23",
+    "latestDamageImpacts": "18 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 21,
+    "img": "https://loremflickr.com/50/50/building21",
+    "address": "789 Maple Dr. San Diego, California 97531",
+    "latestInspectionDate": "11/21/21",
+    "latestDamageImpacts": "49 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 22,
+    "img": "https://loremflickr.com/50/50/building22",
+    "address": "123 Pine Ave. Dallas, Texas 36912",
+    "latestInspectionDate": "07/10/22",
+    "latestDamageImpacts": "32 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 23,
+    "img": "https://loremflickr.com/50/50/building23",
+    "address": "555 Elm St. Philadelphia, Pennsylvania 75369",
+    "latestInspectionDate": "02/14/23",
+    "latestDamageImpacts": "67 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 24,
+    "img": "https://loremflickr.com/50/50/building24",
+    "address": "222 Oak St. Houston, Texas 98765",
+    "latestInspectionDate": "10/02/21",
+    "latestDamageImpacts": "29 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 25,
+    "img": "https://loremflickr.com/50/50/building25",
+    "address": "789 Maple Dr. Las Vegas, Nevada 45678",
+    "latestInspectionDate": "06/25/22",
+    "latestDamageImpacts": "54 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 26,
+    "img": "https://loremflickr.com/50/50/building26",
+    "address": "123 Pine Ave. Miami, Florida 23456",
+    "latestInspectionDate": "03/17/21",
+    "latestDamageImpacts": "23 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 27,
+    "img": "https://loremflickr.com/50/50/building27",
+    "address": "555 Elm St. San Francisco, California 78901",
+    "latestInspectionDate": "11/30/21",
+    "latestDamageImpacts": "43 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 28,
+    "img": "https://loremflickr.com/50/50/building28",
+    "address": "222 Oak St. Chicago, Illinois 65432",
+    "latestInspectionDate": "08/22/22",
+    "latestDamageImpacts": "76 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 29,
+    "img": "https://loremflickr.com/50/50/building29",
+    "address": "789 Maple Dr. Seattle, Washington 13579",
+    "latestInspectionDate": "04/12/23",
+    "latestDamageImpacts": "35 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 30,
+    "img": "https://loremflickr.com/50/50/building30",
+    "address": "123 Pine Ave. New York, New York 86420",
+    "latestInspectionDate": "12/07/21",
+    "latestDamageImpacts": "62 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 31,
+    "img": "https://loremflickr.com/50/50/building31",
+    "address": "555 Elm St. Los Angeles, California 24680",
+    "latestInspectionDate": "07/10/23",
+    "latestDamageImpacts": "28 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 32,
+    "img": "https://loremflickr.com/50/50/building32",
+    "address": "222 Oak St. Atlanta, Georgia 97531",
+    "latestInspectionDate": "02/16/22",
+    "latestDamageImpacts": "52 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 33,
+    "img": "https://loremflickr.com/50/50/building33",
+    "address": "789 Maple Dr. San Diego, California 36912",
+    "latestInspectionDate": "09/28/21",
+    "latestDamageImpacts": "16 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 34,
+    "img": "https://loremflickr.com/50/50/building34",
+    "address": "123 Pine Ave. Dallas, Texas 75369",
+    "latestInspectionDate": "06/02/22",
+    "latestDamageImpacts": "71 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 35,
+    "img": "https://loremflickr.com/50/50/building35",
+    "address": "555 Elm St. Philadelphia, Pennsylvania 98765",
+    "latestInspectionDate": "01/17/23",
+    "latestDamageImpacts": "41 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 36,
+    "img": "https://loremflickr.com/50/50/building36",
+    "address": "222 Oak St. Houston, Texas 45678",
+    "latestInspectionDate": "10/05/21",
+    "latestDamageImpacts": "84 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 37,
+    "img": "https://loremflickr.com/50/50/building37",
+    "address": "789 Maple Dr. Las Vegas, Nevada 24680",
+    "latestInspectionDate": "05/29/23",
+    "latestDamageImpacts": "37 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 38,
+    "img": "https://loremflickr.com/50/50/building38",
+    "address": "123 Pine Ave. Miami, Florida 97531",
+    "latestInspectionDate": "03/05/21",
+    "latestDamageImpacts": "27 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 39,
+    "img": "https://loremflickr.com/50/50/building39",
+    "address": "555 Elm St. San Francisco, California 36912",
+    "latestInspectionDate": "11/20/21",
+    "latestDamageImpacts": "59 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 40,
+    "img": "https://loremflickr.com/50/50/building40",
+    "address": "222 Oak St. Chicago, Illinois 75369",
+    "latestInspectionDate": "08/12/22",
+    "latestDamageImpacts": "32 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 41,
+    "img": "https://loremflickr.com/50/50/building41",
+    "address": "789 Maple Dr. Seattle, Washington 98765",
+    "latestInspectionDate": "04/03/23",
+    "latestDamageImpacts": "68 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 42,
+    "img": "https://loremflickr.com/50/50/building42",
+    "address": "123 Pine Ave. New York, New York 45678",
+    "latestInspectionDate": "12/29/21",
+    "latestDamageImpacts": "23 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 43,
+    "img": "https://loremflickr.com/50/50/building43",
+    "address": "555 Elm St. Los Angeles, California 86420",
+    "latestInspectionDate": "08/07/21",
+    "latestDamageImpacts": "47 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 44,
+    "img": "https://loremflickr.com/50/50/building44",
+    "address": "222 Oak St. Atlanta, Georgia 13579",
+    "latestInspectionDate": "03/11/23",
+    "latestDamageImpacts": "19 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "2 months"
+  },
+  {
+    "id": 45,
+    "img": "https://loremflickr.com/50/50/building45",
+    "address": "789 Maple Dr. San Diego, California 75369",
+    "latestInspectionDate": "11/17/21",
+    "latestDamageImpacts": "51 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "5 months"
+  },
+  {
+    "id": 46,
+    "img": "https://loremflickr.com/50/50/building46",
+    "address": "123 Pine Ave. Dallas, Texas 98765",
+    "latestInspectionDate": "07/08/22",
+    "latestDamageImpacts": "38 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "1 month"
+  },
+  {
+    "id": 47,
+    "img": "https://loremflickr.com/50/50/building47",
+    "address": "555 Elm St. Philadelphia, Pennsylvania 45678",
+    "latestInspectionDate": "02/12/23",
+    "latestDamageImpacts": "74 Impacts",
+    "latestDamageLevel": "Minor",
+    "roofLifespan": "6 months"
+  },
+  {
+    "id": 48,
+    "img": "https://loremflickr.com/50/50/building48",
+    "address": "222 Oak St. Houston, Texas 86420",
+    "latestInspectionDate": "10/01/21",
+    "latestDamageImpacts": "31 Impacts",
+    "latestDamageLevel": "Moderate",
+    "roofLifespan": "4 months"
+  },
+  {
+    "id": 49,
+    "img": "https://loremflickr.com/50/50/building49",
+    "address": "789 Maple Dr. Las Vegas, Nevada 36912",
+    "latestInspectionDate": "06/22/22",
+    "latestDamageImpacts": "65 Impacts",
+    "latestDamageLevel": "Severe",
+    "roofLifespan": "3 months"
+  },
+  {
+    "id": 50,
+    "img": "https://loremflickr.com/50/50/building50",
+    "address": "123 Pine Ave. Miami, Florida 75369",
+    "latestInspectionDate": "03/03/21",
+    "latestDamageImpacts": "22 Impacts",
+    "latestDamageLevel": "Negligible",
+    "roofLifespan": "2 months"
+  }
+]

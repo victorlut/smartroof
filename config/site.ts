@@ -1,3 +1,5 @@
+import { Building } from "lucide-react"
+
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
@@ -7,6 +9,7 @@ export const siteConfig = {
   mainNav: [
     {
       title: "Home",
+      icon: Building,
       href: "/",
     },
   ],
