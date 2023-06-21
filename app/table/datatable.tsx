@@ -80,9 +80,12 @@ export function DataTable<TData, TValue>({
             className="pl-14 pt-2 w-full bg-gray-50"
           />
         </div>
-        <div className="flex ml-4 mr-2" aria-label="Toggle View">
+        <div
+          className="flex ml-4 mr-2 bg-slate-100 rounded-md p-1"
+          aria-label="Toggle View"
+        >
           <Toggle
-            className="data-[state=on]:bg-white text-slate-900 whitespace-nowrap"
+            className="data-[state=on]:bg-white rounded text-slate-900 h-8 whitespace-nowrap"
             pressed={isListViewMode}
             onClick={() => {
               setIsListViewMode(true)
@@ -91,7 +94,7 @@ export function DataTable<TData, TValue>({
             List View
           </Toggle>
           <Toggle
-            className="data-[state=on]:bg-white text-slate-900 whitespace-nowrap"
+            className="data-[state=on]:bg-white rounded text-slate-900 h-8 whitespace-nowrap"
             pressed={!isListViewMode}
             onClick={() => {
               setIsListViewMode(false)
