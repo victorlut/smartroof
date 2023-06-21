@@ -11,7 +11,7 @@ import {
   getPaginationRowModel,
   useReactTable,
 } from "@tanstack/react-table"
-import { ArrowLeft, ArrowRight, Filter, Search } from "lucide-react"
+import { Filter, Search } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {

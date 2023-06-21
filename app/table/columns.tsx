@@ -22,6 +22,7 @@ export type Record = {
   latestDamageLevel: string
   roofLifespan: string
 }
+
 export const columns: ColumnDef<Record>[] = [
   {
     id: "select",
